@@ -8,7 +8,7 @@ fn process(_text: String) -> String {
         None => _text.trim_start().to_string(),
     };
 
-    let mut otv2= _text;
+    let mut otv2 = _text;
     otv2.push_str(" rust");
 
     let otv3 = &otv2;
